@@ -1,0 +1,76 @@
+# ===================================
+# Node.js standard ignores
+# ===================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional lock files (keep if you prefer locking)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===================================
+# Bot secrets & config
+# ===================================
+config.json
+*.env
+.env.*
+
+
+# ===================================
+# Kanban board data files
+# (your boards stored in /data folder)
+# ===================================
+data/
+!data/.gitkeep  # allow empty folder in GitHub
+
+
+# ===================================
+# Generated Kanban images
+# ===================================
+kanban-output-*.png
+
+
+# ===================================
+# Logs
+# ===================================
+logs/
+*.log
+*.log.*
+debug.log
+
+# PM2 logs if you ever deploy that way
+.pmd/
+.pmlog/
+
+
+# ===================================
+# IDE / Editor files
+# ===================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+
+# ===================================
+# OS system files
+# ===================================
+ehthumbs.db
+Desktop.ini
+
+
+# ===================================
+# Canvas build / temp artifacts
+# ===================================
+build/
+temp/
+cache/
